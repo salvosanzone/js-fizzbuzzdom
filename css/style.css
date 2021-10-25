@@ -22,6 +22,9 @@ h1{
 .box.multiple-of-3{
   background-color: #0bd6a1;
 }
+.box.multiple-of-3::after{
+  content: 'fizz';
+}
 
 .box.multiple-of-5{
   background-color: #ffd166;

@@ -12,4 +12,14 @@ for (let i = 1; i <= 100; i++)
     box.innerHTML = i;
     row.append(box); //specifico dove voglio inserire il mio box e lo vedrò nella mia viewport
     console.log(box);
-  }
+    
+    //all'interno del mio ciclo for scrivo le mie condizioni
+    if (!(i % 3) && !(i % 5)) {
+      box.classList.add('both');
+   } else if (!(i % 3)) {
+      box.classList.add('multiple-of-3');
+   } else if (!(i % 5)) {
+      box.classList.add('multiple-of-5');
+   } 
+    console.log(i);
+  };
