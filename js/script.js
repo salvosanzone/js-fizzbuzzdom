@@ -15,14 +15,14 @@ for (let i = 1; i <= 100; i++)
     //all'interno del mio ciclo for scrivo le mie condizioni
     if (!(i % 3) && !(i % 5)) {
       box.classList.add('both');
-      box.innerHTML = 'DOM'
+      box.innerHTML = 'DOM';  //innerHTML mi permette di inserire il testo
     } else if (!(i % 3)) {
       box.classList.add('multiple-of-3');
-      box.innerHTML = 'Fizz'
+      box.innerHTML = 'Fizz';
 
    } else if (!(i % 5)) {
       box.classList.add('multiple-of-5');
-      box.innerHTML = 'Buzz'
+      box.innerHTML = 'Buzz';
    } 
     console.log(i);
   };
