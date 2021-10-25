@@ -1,0 +1,32 @@
+body{
+  background-color: #083b4c;
+  color: white;
+}
+
+h1{
+  font-size: 70px;
+}
+
+.box{
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background-color: #1389b2;
+  color: black;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.multiple-of-3{
+  background-color: #0bd6a1;
+}
+
+.box.multiple-of-5{
+  background-color: #ffd166;
+}
+
+.box.both{
+  background-color: #f0466f;
+}
